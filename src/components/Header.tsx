@@ -9,7 +9,7 @@ const navItems = [
 
 function Header() {
   return (
-    <header className="flex items-center justify-between rounded-b-md bg-purple-200 p-6 font-black">
+    <header className="sticky flex items-center justify-between rounded-b-xl bg-(--color-primary-purple) p-6 font-black text-gray-100">
       <h1>Hello, I'm a header!</h1>
       <NavButtons items={navItems} />
     </header>

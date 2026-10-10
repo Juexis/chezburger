@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+:root {
+  --color-primary-purple: #2e1069;
+}
